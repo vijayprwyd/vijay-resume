@@ -17,7 +17,7 @@ export const Toptal = () => (
 
     <Experience.Summary className="mt-4">
       <Experience.Description>
-        Worked for{" "}
+        Working for{" "}
         <ExternalLink href="https://www.xysense.com/">
           XYSense
         </ExternalLink>

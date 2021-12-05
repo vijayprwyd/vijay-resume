@@ -12,7 +12,7 @@ export const Contiamo = () => (
         Contiamo
       </Experience.Company>
     </Experience.Title>
-    <Experience.Duration>Aug 2021 - Present</Experience.Duration>
+    <Experience.Duration>Aug 2021 - November 2021</Experience.Duration>
     <Experience.Logo src="/companies/contiamo.png" />
 
     <Experience.Summary className="mt-4">

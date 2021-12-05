@@ -26,7 +26,7 @@ export const ModusCreate = () => (
       </Experience.Description>
 
       <Experience.Description>
-        Worked for{" "}
+        Working for{" "}
         <ExternalLink href="https://askcoral.co/">
           Coral Marketplace
         </ExternalLink>{" "}
