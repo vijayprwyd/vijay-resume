@@ -3,8 +3,6 @@ import { MdPhoneAndroid } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
 import { MdLocationOn } from "react-icons/md";
 import LinkedIn from "../public/social/linkedin.svg";
-import StackOverflow from "../public/social/stackOverflow.svg";
-import Github from "../public/social/git.svg";
 
 export const Profile = () => (
   <div className="md:min-w-100 bg-dusk p-6 rounded-lg">
@@ -37,18 +35,28 @@ export const Profile = () => (
 
           <div className="flex gap-2">
             <a href="https://www.linkedin.com/in/vijay-p-r-133147131/">
-              <Image alt="Linkedin" src={LinkedIn} width={32} height={32} />
+              <Image
+                alt="Linkedin"
+                src="/social/linkedin.svg"
+                width={32}
+                height={32}
+              />
             </a>
             <a href="https://stackoverflow.com/users/3950280/vijay-p-r">
               <Image
                 alt="Stack Overflow"
-                src={StackOverflow}
+                src="/social/stackOverflow.svg"
                 width={32}
                 height={32}
               />
             </a>
             <a href="https://github.com/vijayprwyd">
-              <Image alt="Github" src={Github} width={32} height={32} />
+              <Image
+                alt="Github"
+                src="/social/git.svg"
+                width={32}
+                height={32}
+              />
             </a>
           </div>
         </div>
