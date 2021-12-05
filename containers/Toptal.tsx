@@ -6,7 +6,7 @@ export const Toptal = () => (
     <Experience.Title>
       {"Fullstack consultant at "}
       <Experience.Company
-        className="text-toptal-blue pl-2"
+        className="text-toptal-blue"
         companyUrl="https://www.toptal.com/"
       >
         Toptal

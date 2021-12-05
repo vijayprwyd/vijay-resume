@@ -4,11 +4,8 @@ import { ExternalLink } from "../components/ExternalLink";
 export const ModusCreate = () => (
   <Experience>
     <Experience.Title>
-      Frontend consultant at &nbsp;
-      <Experience.Company
-        className="pl-2"
-        companyUrl="https://moduscreate.com/"
-      >
+      Frontend consultant at{" "}
+      <Experience.Company companyUrl="https://moduscreate.com/">
         Modus Create
       </Experience.Company>
     </Experience.Title>

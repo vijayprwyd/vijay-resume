@@ -6,7 +6,7 @@ export const Tekion = () => (
       {"Frontend developer at "}
 
       <Experience.Company
-        className="text-intuit-blue pl-2 text-tekion-green"
+        className="text-intuit-blue text-tekion-green"
         companyUrl="https://tekion.com/"
       >
         Tekion

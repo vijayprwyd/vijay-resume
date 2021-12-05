@@ -1,9 +1,11 @@
+import { Section } from "./Section";
+
 interface EducationProps {
   children: React.ReactNode;
 }
 
 const Institution = ({ children }: EducationProps) => (
-  <div className="font-bold">{children}</div>
+  <div className="font-bold text-lg">{children}</div>
 );
 
 const Subject = ({ children }: EducationProps) => (
@@ -14,7 +16,9 @@ const Score = ({ children }: EducationProps) => (
   <div className="text-xs">{children}</div>
 );
 
-const Education = ({ children }: EducationProps) => <div> {children} </div>;
+const Education = ({ children }: EducationProps) => (
+  <Section> {children} </Section>
+);
 
 Education.Institution = Institution;
 Education.Subject = Subject;

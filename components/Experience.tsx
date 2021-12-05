@@ -6,7 +6,7 @@ interface RenderProp {
 
 interface CompanyProps {
   children: React.ReactNode;
-  className: string;
+  className?: string;
   companyUrl: string;
 }
 
@@ -25,7 +25,7 @@ const Title = ({ children }: RenderProp) => (
 const Company = ({ className, children, companyUrl }: CompanyProps) => (
   <a
     href={companyUrl}
-    className={`${className} underline`}
+    className={`${className || ""} underline`}
     target="_blank"
     rel="noreferrer"
   >

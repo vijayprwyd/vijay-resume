@@ -2,7 +2,6 @@ import Image from "next/image";
 import { MdPhoneAndroid } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
 import { MdLocationOn } from "react-icons/md";
-import LinkedIn from "../public/social/linkedin.svg";
 
 export const Profile = () => (
   <div className="md:min-w-100 bg-dusk p-6 rounded-lg">

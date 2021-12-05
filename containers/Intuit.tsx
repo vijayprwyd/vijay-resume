@@ -5,7 +5,7 @@ export const Intuit = () => (
     <Experience.Title>
       {"Fullstack developer at "}
       <Experience.Company
-        className="text-intuit-blue pl-2"
+        className="text-intuit-blue"
         companyUrl="https://www.intuit.com/"
       >
         Intuit

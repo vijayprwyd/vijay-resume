@@ -1,3 +1,5 @@
+import { Section } from "./Section";
+
 interface CertificationsProps {
   children: React.ReactNode;
 }

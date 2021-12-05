@@ -7,6 +7,7 @@ import Education from "../components/Education";
 import { ExternalLink } from "../components/ExternalLink";
 import Heading2 from "../components/Heading";
 import { Profile } from "../components/Profile";
+import { Section } from "../components/Section";
 import { Skills } from "../components/Skills";
 import { Contiamo } from "../containers/Contiamo";
 import { Intuit } from "../containers/Intuit";
@@ -44,50 +45,53 @@ const Home: NextPage = () => {
             <Toptal />
             <Contiamo />
           </div>
-          <div className="justify-center mx-auto w-148">
+          <div className="justify-center mx-auto lg:w-148">
             <ModusCreate />
           </div>
 
           <div className="md:grid md:grid-cols-2 gap-4 md:mb-4">
             <div className="flex flex-col gap-4 mb-8 md:mb-0">
               <Heading2>Certifications</Heading2>
-
-              <Certifications>
-                <Certifications.Certification>
-                  <ExternalLink href="https://www.hackerrank.com/vpr_wyd">
-                    HackerRank
-                  </ExternalLink>
-                  - Javascript, CSS, Problem solving certified
-                </Certifications.Certification>
-                <Certifications.Certification>
-                  <ExternalLink href="https://www.linkedin.com/in/vijay-p-r-133147131/">
-                    Linkedin
-                  </ExternalLink>
-                  - Javascript, HTML, CSS, React certified
-                </Certifications.Certification>
-              </Certifications>
+              <Section>
+                <Certifications>
+                  <Certifications.Certification>
+                    <ExternalLink href="https://www.hackerrank.com/vpr_wyd">
+                      HackerRank
+                    </ExternalLink>
+                    - Javascript, CSS, Problem solving certified
+                  </Certifications.Certification>
+                  <Certifications.Certification>
+                    <ExternalLink href="https://www.linkedin.com/in/vijay-p-r-133147131/">
+                      Linkedin
+                    </ExternalLink>
+                    - Javascript, HTML, CSS, React certified
+                  </Certifications.Certification>
+                </Certifications>
+              </Section>
             </div>
 
             <div className="flex flex-col gap-4 mb-10 md:mb-0">
               <Heading2>Blogs</Heading2>
 
-              <Blogs>
-                <ul className="list-disc ml-6 text-2xl">
-                  <li>
-                    <ExternalLink href="https://dev.to/vijayprwyd/polyfill-for-promises-1f0e">
-                      Polyfill
-                    </ExternalLink>
-                    <span>&nbsp;</span>for Promises
-                  </li>
-                  <li>
-                    Multiplayer&nbsp;
-                    <ExternalLink href="https://if092.csb.app/">
-                      chess
-                    </ExternalLink>
-                    &nbsp;game
-                  </li>
-                </ul>
-              </Blogs>
+              <Section className="flex-grow">
+                <Blogs>
+                  <ul className="list-disc ml-6 text-2xl">
+                    <li>
+                      <ExternalLink href="https://dev.to/vijayprwyd/polyfill-for-promises-1f0e">
+                        Polyfill
+                      </ExternalLink>{" "}
+                      for Promises
+                    </li>
+                    <li>
+                      Multiplayer{" "}
+                      <ExternalLink href="https://if092.csb.app/">
+                        chess
+                      </ExternalLink>{" "}
+                      game
+                    </li>
+                  </ul>
+                </Blogs>
+              </Section>
             </div>
           </div>
 

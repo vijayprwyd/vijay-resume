@@ -6,7 +6,7 @@ export const Contiamo = () => (
     <Experience.Title>
       {"Frontend developer at "}
       <Experience.Company
-        className="text-contiamo-blue pl-2"
+        className="text-contiamo-blue"
         companyUrl="https://www.contiamo.com/"
       >
         Contiamo
