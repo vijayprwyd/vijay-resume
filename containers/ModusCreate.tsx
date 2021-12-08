@@ -31,7 +31,7 @@ export const ModusCreate = () => (
           Coral Marketplace
         </ExternalLink>{" "}
         , the future for wholesale grocery stock ordering. Devleoped the entire
-        fronend and marketing pages from scrach in Next Js, helping store owners
+        frontend and marketing pages from scrach in Next Js, helping store owners
         place wholesale orders from high quality ethical brands.
       </Experience.Description>
     </Experience.Summary>

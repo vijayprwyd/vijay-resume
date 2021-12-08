@@ -21,7 +21,7 @@ export const Intuit = () => (
       </Experience.Description>
       <Experience.Description>
         My tasks included test driven development, documentation, intergrating
-        components with storybooks, participate in design discussions and code
+        components with storybooks, design discussions and code
         reviews, weekly releases, deployments and monitoring post
         deployment, analytics integration.
       </Experience.Description>
