@@ -18,17 +18,24 @@ export const Toptal = () => (
     <Experience.Summary className="mt-4">
       <Experience.Description>
         Worked for{" "}
-        <ExternalLink href="https://www.xysense.com/">
-          XYSense
-        </ExternalLink>
-        , an AI powered workplace occupancy sensor, changing the way companies
-        measure office utilization.
+        <ExternalLink href="https://www.contiamo.com/">Contiamo</ExternalLink>,
+        a data catalogue application which enables companies to ship new data
+        projects quickly. Implemented high performant, interactive and
+        accessible tables for rendering millions of records, visualizations for
+        lineage diagram and a dashboard for{" "}
+        <ExternalLink href="https://www.cbre.com/">CBRE</ExternalLink>
       </Experience.Description>
+    </Experience.Summary>
+
+    <Experience.Summary className="mt-4">
       <Experience.Description>
-        Implemented an image annotation React library from scratch on top of
-        Openlayers to annotate objects in an image to analyze the space
-        utilization in an area. Seamlessly handled annotating thousands of
-        images with bulk edits and transformations.
+        Worked for{" "}
+        <ExternalLink href="https://www.xysense.com/">XYSense</ExternalLink>, an
+        AI powered workplace occupancy sensor, changing the way companies
+        measure office utilization. Implemented an image annotation React
+        library from scratch on top of Openlayers to annotate objects in an
+        image to analyze the space utilization in an area. Seamlessly handled
+        annotating thousands of images with bulk edits and transformations.
       </Experience.Description>
     </Experience.Summary>
   </Experience>

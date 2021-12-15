@@ -43,11 +43,10 @@ const Home: NextPage = () => {
             <Intuit />
             <Tekion />
             <Toptal />
-            <Contiamo />
-          </div>
-          <div className="justify-center mx-auto lg:w-148">
             <ModusCreate />
           </div>
+          {/* <div className="justify-center mx-auto lg:w-148">
+          </div> */}
 
           <div className="md:grid md:grid-cols-2 gap-4 md:mb-4">
             <div className="flex flex-col gap-4 mb-8 md:mb-0">
