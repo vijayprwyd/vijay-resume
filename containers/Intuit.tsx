@@ -20,7 +20,7 @@ export const Intuit = () => (
         tax filing softwares. 
       </Experience.Description>
       <Experience.Description>
-        My tasks included test driven development, documentation, intergrating
+        My tasks included test driven development, documentation, integrating
         components with storybooks, design discussions and code
         reviews, weekly releases, deployments and monitoring post
         deployment, analytics integration.

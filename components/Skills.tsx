@@ -96,6 +96,12 @@ const skills = [
     dropShadow: "#c63d14",
     imgUrl: "/icons/jest.svg",
   },
+  {
+    name: "Recoil",
+    dropShadow: "rgb(39, 99, 233)",
+    imgUrl: "/icons/recoil.svg",
+  },
+
 ];
 
 export const Skills = () => {

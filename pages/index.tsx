@@ -9,7 +9,6 @@ import Heading2 from "../components/Heading";
 import { Profile } from "../components/Profile";
 import { Section } from "../components/Section";
 import { Skills } from "../components/Skills";
-import { Contiamo } from "../containers/Contiamo";
 import { Intuit } from "../containers/Intuit";
 import { ModusCreate } from "../containers/ModusCreate";
 import { Tekion } from "../containers/Tekion";
@@ -40,13 +39,11 @@ const Home: NextPage = () => {
           <Heading2>Work Experience</Heading2>
 
           <div className="lg:grid grid-cols-2 gap-4">
+            <Toptal />
             <Intuit />
             <Tekion />
-            <Toptal />
             <ModusCreate />
           </div>
-          {/* <div className="justify-center mx-auto lg:w-148">
-          </div> */}
 
           <div className="md:grid md:grid-cols-2 gap-4 md:mb-4">
             <div className="flex flex-col gap-4 mb-8 md:mb-0">
