@@ -39,10 +39,10 @@ const Home: NextPage = () => {
           <Heading2>Work Experience</Heading2>
 
           <div className="lg:grid grid-cols-2 gap-4">
+            <ModusCreate />
+            <Tekion />
             <Toptal />
             <Intuit />
-            <Tekion />
-            <ModusCreate />
           </div>
 
           <div className="md:grid md:grid-cols-2 gap-4 md:mb-4">

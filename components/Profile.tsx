@@ -33,7 +33,7 @@ export const Profile = () => (
           </div>
 
           <div className="flex gap-2">
-            <a href="https://www.linkedin.com/in/vijay-p-r-133147131/">
+            <a href="https://www.linkedin.com/in/vijay-p-r-133147131/" target="_blank" rel="noreferrer">
               <Image
                 alt="Linkedin"
                 src="/social/linkedin.svg"
@@ -41,7 +41,7 @@ export const Profile = () => (
                 height={32}
               />
             </a>
-            <a href="https://stackoverflow.com/users/3950280/vijay-p-r">
+            <a href="https://stackoverflow.com/users/3950280/vijay-p-r" target="_blank" rel="noreferrer">
               <Image
                 alt="Stack Overflow"
                 src="/social/stackOverflow.svg"
@@ -49,7 +49,7 @@ export const Profile = () => (
                 height={32}
               />
             </a>
-            <a href="https://github.com/vijayprwyd">
+            <a href="https://github.com/vijayprwyd" target="_blank" rel="noreferrer">
               <Image
                 alt="Github"
                 src="/social/git.svg"

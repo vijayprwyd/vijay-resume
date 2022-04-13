@@ -12,12 +12,14 @@ export const Toptal = () => (
         Toptal
       </Experience.Company>
     </Experience.Title>
-    <Experience.Duration>Sep 2021 - Present</Experience.Duration>
+    <Experience.Duration>
+      Aug 2018 - Present ( Currently not associated with any active engagement )
+    </Experience.Duration>
     <Experience.Logo src="/companies/toptal.png" />
 
     <Experience.Summary className="mt-4">
       <Experience.Description>
-        Working for{" "}
+        Worked for{" "}
         <ExternalLink href="https://www.getcruise.com/">Cruise</ExternalLink>, a
         self-driving car company. Working on various tools that help AV
         engineers to build and test software running in autonomous vehicles.
