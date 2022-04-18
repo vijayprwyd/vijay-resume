@@ -3,7 +3,7 @@ import Experience from "../components/Experience";
 export const Tekion = () => (
   <Experience>
     <Experience.Title>
-      {"Frontend developer at "}
+      {"Front-end developer at "}
 
       <Experience.Company
         className="text-intuit-blue text-tekion-green"

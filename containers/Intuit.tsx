@@ -3,7 +3,7 @@ import Experience from "../components/Experience";
 export const Intuit = () => (
   <Experience>
     <Experience.Title>
-      {"Fullstack developer at "}
+      {"Full-stack developer at "}
       <Experience.Company
         className="text-intuit-blue"
         companyUrl="https://www.intuit.com/"
