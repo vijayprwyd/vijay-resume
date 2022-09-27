@@ -9,10 +9,20 @@ export const ModusCreate = () => (
         Modus Create
       </Experience.Company>
     </Experience.Title>
-    <Experience.Duration>June 2021 - Present</Experience.Duration>
+    <Experience.Duration>June 2021 - September 2022</Experience.Duration>
     <Experience.Logo src="/companies/modus.png" />
 
+
     <Experience.Summary className="mt-4">
+
+    <Experience.Description>
+        Worked for{" "}
+        <ExternalLink href="https://audibusinessinnovation.com/en/">
+          Audi Business Innovation GmbH
+        </ExternalLink>.{" "}
+        Developed the billing portal application to manage usage and billing of tools and softwares.
+      </Experience.Description>
+
       <Experience.Description>
         Worked for{" "}
         <ExternalLink href="https://askcoral.co/">
