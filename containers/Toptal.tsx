@@ -4,7 +4,7 @@ import { ExternalLink } from "../components/ExternalLink";
 export const Toptal = () => (
   <Experience>
     <Experience.Title>
-      {"Front-end consultant at "}
+      Front-end consultant at
       <Experience.Company
         className="text-toptal-blue"
         companyUrl="https://www.toptal.com/"
@@ -13,7 +13,7 @@ export const Toptal = () => (
       </Experience.Company>
     </Experience.Title>
     <Experience.Duration>
-      June 2021 - Present
+      June 2018 - Present ( Freelance, Currently not active )
     </Experience.Duration>
     <Experience.Logo src="/companies/toptal.png" />
 

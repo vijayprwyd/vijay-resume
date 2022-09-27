@@ -9,7 +9,7 @@ export const ModusCreate = () => (
         Modus Create
       </Experience.Company>
     </Experience.Title>
-    <Experience.Duration>June 2021 - September 2022</Experience.Duration>
+    <Experience.Duration>June 2021 - Present</Experience.Duration>
     <Experience.Logo src="/companies/modus.png" />
 
 
@@ -20,7 +20,7 @@ export const ModusCreate = () => (
         <ExternalLink href="https://audibusinessinnovation.com/en/">
           Audi Business Innovation GmbH
         </ExternalLink>.{" "}
-        Developed the billing portal application to manage usage and billing of tools and softwares.
+        Developed the billing portal application to manage usage and billing of tools and softwares, place new orders, get forecasts and insights.
       </Experience.Description>
 
       <Experience.Description>
