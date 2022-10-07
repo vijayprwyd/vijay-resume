@@ -9,6 +9,7 @@ import Heading2 from "../components/Heading";
 import { Profile } from "../components/Profile";
 import { Section } from "../components/Section";
 import { Skills } from "../components/Skills";
+import { Adeva } from "../containers/Adeva";
 import { Intuit } from "../containers/Intuit";
 import { ModusCreate } from "../containers/ModusCreate";
 import { Tekion } from "../containers/Tekion";
@@ -38,9 +39,11 @@ const Home: NextPage = () => {
 
           <Heading2>Work Experience</Heading2>
 
+          <Adeva/>
+
           <div className="lg:grid grid-cols-2 gap-4">
-            <ModusCreate />
             <Toptal />
+            <ModusCreate />
             <Tekion />
             <Intuit />
           </div>
