@@ -4,7 +4,7 @@ import { ExternalLink } from "../components/ExternalLink";
 export const Freelance = () => (
   <Experience>
     <Experience.Title>
-      Software Developer consultant
+      Software Developer Consultant
       {/* <Experience.Company companyUrl="https://moduscreate.com/">
         Modus Create
 </Experience.Company> */}
@@ -40,7 +40,7 @@ export const Freelance = () => (
         Worked for{" "}
         <ExternalLink href="https://www.xysense.com/">XYSense</ExternalLink>, an
         AI powered workplace occupancy sensor, changing the way companies
-        measure office utilization. Implemented an image annotation library in
+        measure office space utilization. Implemented an image annotation library in
         React and OpenLayers, to train AI algorithms for analyzing space
         utilization. Seamlessly handled annotating thousands of images with bulk
         edits and transformations.
