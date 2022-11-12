@@ -9,11 +9,9 @@ import Heading2 from "../components/Heading";
 import { Profile } from "../components/Profile";
 import { Section } from "../components/Section";
 import { Skills } from "../components/Skills";
-import { Adeva } from "../containers/Adeva";
+import { Freelance } from "../containers/Freelance";
 import { Intuit } from "../containers/Intuit";
-import { ModusCreate } from "../containers/ModusCreate";
 import { Tekion } from "../containers/Tekion";
-import { Toptal } from "../containers/Toptal";
 
 const Home: NextPage = () => {
   return (
@@ -39,11 +37,16 @@ const Home: NextPage = () => {
 
           <Heading2>Work Experience</Heading2>
 
-          <Adeva/>
+          <Freelance />
+          {/*
+                                <Adeva/>
 
-          <div className="lg:grid grid-cols-2 gap-4">
             <Toptal />
             <ModusCreate />
+      
+  */}
+
+          <div className="lg:grid grid-cols-2 gap-4">
             <Tekion />
             <Intuit />
           </div>
