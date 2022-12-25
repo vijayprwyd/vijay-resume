@@ -3,18 +3,13 @@ import { ExternalLink } from "../components/ExternalLink";
 
 export const Freelance = () => (
   <Experience>
-    <Experience.Title>
-      Software Developer Consultant
-      {/* <Experience.Company companyUrl="https://moduscreate.com/">
-        Modus Create
-</Experience.Company> */}
-    </Experience.Title>
+    <Experience.Title>Software Developer Consultant</Experience.Title>
     <Experience.Duration>June 2021 - Present</Experience.Duration>
     <Experience.Logo src="/companies/modus.png" />
 
     <div className="mt-4">
-      As a self-employed software engineer consultant, I got a chance to work with many
-      companies. My experiences include :
+      As a self-employed software engineer consultant, I got a chance to work
+      with many companies. My experiences include :
     </div>
 
     <Experience.Summary className="mt-4">
@@ -28,6 +23,13 @@ export const Freelance = () => (
         experience. Working on their web app which enables users to take online
         courses
       </Experience.Description>
+      <Experience.Description>
+        Worked for{" "}
+        <ExternalLink href="https://www.trili.tech/">Trili tech</ExternalLink>,
+        a blockchain research and development hub focused on{" "}
+        <ExternalLink href="https://tezos.com/">Tezos</ExternalLink>. Worked on
+        Manchester United digital collectibles and free tez for Ethereum users.
+      </Experience.Description>
 
       <Experience.Description>
         Worked for{" "}
@@ -35,17 +37,15 @@ export const Freelance = () => (
         self-driving car company, on various tools that help AV engineers to
         build and test software running in autonomous vehicles.
       </Experience.Description>
-
       <Experience.Description>
         Worked for{" "}
         <ExternalLink href="https://www.xysense.com/">XYSense</ExternalLink>, an
         AI powered workplace occupancy sensor, changing the way companies
-        measure office space utilization. Implemented an image annotation library in
-        React and OpenLayers, to train AI algorithms for analyzing space
-        utilization. Seamlessly handled annotating thousands of images with bulk
-        edits and transformations.
+        measure office space utilization. Implemented an image annotation
+        library in React and OpenLayers, to train AI algorithms for analyzing
+        space utilization. Seamlessly handled annotating thousands of images
+        with bulk edits and transformations.
       </Experience.Description>
-
       <Experience.Description>
         Worked for{" "}
         <ExternalLink href="https://audibusinessinnovation.com/en/">
@@ -54,7 +54,6 @@ export const Freelance = () => (
         . Developed the billing portal application to manage usage and billing
         of tools and softwares, place new orders, get forecasts and insights.
       </Experience.Description>
-
       <Experience.Description>
         Worked for{" "}
         <ExternalLink href="https://askcoral.co/">
@@ -64,17 +63,15 @@ export const Freelance = () => (
         frontend and marketing pages from scratch in Next Js, helping store
         owners place wholesale orders from high quality ethical brands.
       </Experience.Description>
-
       <Experience.Description>
         Worked for{" "}
-        <ExternalLink href="https://www.workiva.com/">Workiva</ExternalLink>{" "}
-        , in a product Wdesk, similar to google docs.
-        Created framework to capture browser interactions, metrics, web vitals,
-        JS errors, session traces, real time memory monitoring and load times
-        and developed custom New relic React dashboard application with
-        nerdpacks, nerdlets and NRQL in NewRelic.
+        <ExternalLink href="https://www.workiva.com/">Workiva</ExternalLink> ,
+        in a product Wdesk, similar to google docs. Created framework to capture
+        browser interactions, metrics, web vitals, JS errors, session traces,
+        real time memory monitoring and load times and developed custom New
+        relic React dashboard application with nerdpacks, nerdlets and NRQL in
+        NewRelic.
       </Experience.Description>
-
       <Experience.Description>
         Worked for{" "}
         <ExternalLink href="https://www.contiamo.com/">Contiamo</ExternalLink>,

@@ -38,13 +38,6 @@ const Home: NextPage = () => {
           <Heading2>Work Experience</Heading2>
 
           <Freelance />
-          {/*
-                                <Adeva/>
-
-            <Toptal />
-            <ModusCreate />
-      
-  */}
 
           <div className="lg:grid grid-cols-2 gap-4">
             <Tekion />
