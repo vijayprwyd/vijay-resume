@@ -3,15 +3,19 @@ import { ExternalLink } from "../components/ExternalLink";
 
 export const Freelance = () => (
   <Experience>
-    <Experience.Title>Software Developer Consultant</Experience.Title>
-    <Experience.Duration>June 2021 - Present</Experience.Duration>
+    <Experience.Title>
+      Software Developer Consultant at{" "}
+      <Experience.Company companyUrl="https://moduscreate.com/">
+        Modus Create
+      </Experience.Company>
+    </Experience.Title>
+    <Experience.Duration>September 2021 - Present</Experience.Duration>
     <Experience.Logo src="/companies/modus.png" />
 
     <div className="mt-4">
-      As a self-employed software engineer consultant, I got a chance to work
-      with many companies. My experiences include :
+      I got a chance to work as a Frontend developer consultant for many
+      companies via Modus.
     </div>
-
     <Experience.Summary className="mt-4">
       <Experience.Description>
         Working for{" "}
@@ -28,9 +32,9 @@ export const Freelance = () => (
         <ExternalLink href="https://www.trili.tech/">Trili tech</ExternalLink>,
         a blockchain research and development hub focused on{" "}
         <ExternalLink href="https://tezos.com/">Tezos</ExternalLink>. Worked on
-        Manchester United digital collectibles and free tez for Ethereum users.
+        Manchester United digital collectibles, McLaren collectibles and free
+        tez for Ethereum users.
       </Experience.Description>
-
       <Experience.Description>
         Worked for{" "}
         <ExternalLink href="https://www.getcruise.com/">Cruise</ExternalLink>, a
