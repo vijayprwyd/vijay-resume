@@ -6,11 +6,12 @@ export const About = () => (
         years of experience, from Fortune 500 companies to infant stage
         startups. He is experienced in developing responsive, accessible,
         scalable, and secure single-page web applications from scratch, SEO
-        friendly landing pages and refactoring legacy codebase applying modern
-        design patterns. With a deep focus on application performance and a
-        strong background on CS fundamentals, he has worked as a full time
-        employee as well as a remote freelancer across the world spanning four
-        different continents and six different time zones.
+        friendly landing pages, refactoring legacy codebases applying modern
+        design patterns and debugging backend applications . With a deep focus
+        on application performance and a strong background on CS fundamentals,
+        he has worked as a full time employee as well as a remote consultant
+        across the world spanning four different continents and six different
+        time zones.
       </p>
     </div>
   </div>

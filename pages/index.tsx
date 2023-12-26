@@ -98,7 +98,7 @@ const Home: NextPage = () => {
                 College Of Engineering, Tiruvananthapuram
               </Education.Institution>
               <Education.Subject>
-                Computer Science And Engineering
+                Btech, Computer Science And Engineering
               </Education.Subject>
               <Education.Score>8.55 CGPA</Education.Score>
             </Education>

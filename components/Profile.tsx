@@ -6,7 +6,7 @@ import { MdLocationOn } from "react-icons/md";
 export const Profile = () => (
   <div className="md:min-w-100 bg-dusk p-6 rounded-lg">
     <h1 className="w-fit font-bold text-4xl mb-2">Vijay P R</h1>
-    <div className="text-mist text-xs">Full Stack Javascript engineer</div>
+    <div className="text-mist text-xs">Full Stack engineer</div>
 
     <address className="mt-6 not-italic">
       <div className="flex flex-col sm:flex-row-reverse	row-reverse justify-between lg:flex-col gap-4">
@@ -33,7 +33,11 @@ export const Profile = () => (
           </div>
 
           <div className="flex gap-2">
-            <a href="https://www.linkedin.com/in/vijay-p-r-133147131/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/in/vijay-p-r-133147131/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Image
                 alt="Linkedin"
                 src="/social/linkedin.svg"
@@ -41,7 +45,11 @@ export const Profile = () => (
                 height={32}
               />
             </a>
-            <a href="https://stackoverflow.com/users/3950280/vijay-p-r" target="_blank" rel="noreferrer">
+            <a
+              href="https://stackoverflow.com/users/3950280/vijay-p-r"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Image
                 alt="Stack Overflow"
                 src="/social/stackOverflow.svg"
@@ -49,7 +57,11 @@ export const Profile = () => (
                 height={32}
               />
             </a>
-            <a href="https://github.com/vijayprwyd" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/vijayprwyd"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Image
                 alt="Github"
                 src="/social/git.svg"
