@@ -9,40 +9,27 @@ export const Freelance = () => (
         Modus Create
       </Experience.Company>
     </Experience.Title>
-    <Experience.Duration>September 2021 - Present</Experience.Duration>
     <Experience.Logo src="/companies/modus.png" />
-
     <div className="mt-4">
-      I got a chance to work as a FullStack developer (FE heavy) consultant for
-      many companies via Modus.
+      I got a chance to work as a FullStack developer for many companies via
+      Modus.
     </div>
     <Experience.Summary className="mt-4">
-      <Experience.Description>
-        Working for{" "}
-        <ExternalLink href="https://www.xysense.com/">XYSense</ExternalLink>, an
-        AI powered workplace occupancy sensor, changing the way companies
-        measure office space utilization. Implemented an image annotation
-        library in React and OpenLayers, to train AI algorithms for analyzing
-        space utilization by annotating thousands of images with bulk edits and
-        transformations. Implemeted conflict resolution of space assignments,
-        floor statuses and org settings updation workflow
-      </Experience.Description>
-      <Experience.Description>
-        Worked for{" "}
-        <ExternalLink href="https://www.growthtribe.io/">
-          GrowthTribe
-        </ExternalLink>
-        , a digital learning partner for individuals & organizations,
-        specializing in data science, growth, innovation and customer experience
-        on their web app which enables users to take online courses.
-      </Experience.Description>
       <Experience.Description>
         Worked for{" "}
         <ExternalLink href="https://www.trili.tech/">Trili tech</ExternalLink>,
         a blockchain research and development hub focused on{" "}
         <ExternalLink href="https://tezos.com/">Tezos</ExternalLink>. Worked on
         digital collectbles for Manchester United, McLaren, Flosports, Sowvital,
-        Gangbusters and quests for Ethereum users.
+        Gangbusters and quests for Ethereum users. Worked on admin portal and
+        Zenbox product for auto tagging emails using an LLM model
+      </Experience.Description>
+      <Experience.Description>
+        Worked for{" "}
+        <ExternalLink href="https://www.growthtribe.io/">
+          GrowthTribe
+        </ExternalLink>
+        on their web app which enables users to take online courses.
       </Experience.Description>
       <Experience.Description>
         Worked for{" "}
@@ -64,8 +51,8 @@ export const Freelance = () => (
           Coral Marketplace
         </ExternalLink>{" "}
         , the future for wholesale grocery stock ordering. Developed the entire
-        frontend and marketing pages from scratch in Next Js, helping store
-        owners place wholesale orders from high quality ethical brands.
+        frontend and marketing pages with APIs from scratch in Next Js, helping
+        store owners place wholesale orders from high quality ethical brands.
       </Experience.Description>
       <Experience.Description>
         Worked for{" "}

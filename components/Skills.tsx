@@ -13,9 +13,17 @@ const skills = [
     imgUrl: "/icons/next.svg",
   },
   {
-    name: "Javascript",
-    dropShadow: "rgb(239, 216, 25)",
-    imgUrl: "/icons/javascript.svg",
+    name: "Typescript",
+    dropShadow: "rgb(48, 116, 191)",
+    imgUrl: "/icons/typescript.svg",
+    width: 50,
+    height: 50,
+    className: "top-3.5 left-4",
+  },
+  {
+    name: "NodeJs",
+    dropShadow: "rgb(114, 171, 99)",
+    imgUrl: "/icons/nodeJs.svg",
   },
   {
     name: "HTML",
@@ -31,6 +39,23 @@ const skills = [
     className: "relative top-4 left-4",
   },
   {
+    name: "AWS",
+    dropShadow: "rgb(239, 216, 25)",
+    imgUrl: "/icons/aws2.svg",
+    className: "top-3 left-2.5",
+  },
+  {
+    name: "Graphql",
+    dropShadow: "rgb(255, 70, 133)",
+    imgUrl: "/icons/graphql.svg",
+  },
+  {
+    name: "MongoDB",
+    dropShadow: "rgb(114, 171, 99)",
+    imgUrl: "/icons/mongodb.svg",
+  },
+
+  {
     name: "Storybook",
     dropShadow: "rgb(255, 70, 133)",
     imgUrl: "/icons/storybook.svg",
@@ -39,42 +64,19 @@ const skills = [
     height: 50,
   },
   {
-    name: "NodeJs",
-    dropShadow: "rgb(114, 171, 99)",
-    imgUrl: "/icons/nodeJs.svg",
-  },
-  {
-    name: "Typescript",
-    dropShadow: "rgb(48, 116, 191)",
-    imgUrl: "/icons/typescript.svg",
-    width: 50,
-    height: 50,
-    className: "top-3.5 left-4",
-  },
-  {
     name: "Tailwind CSS",
     dropShadow: "rgb(255, 70, 133)",
     imgUrl: "/icons/tailwind.svg",
   },
   {
-    name: "Redux",
-    dropShadow: "rgb(114, 72, 182)",
-    imgUrl: "/icons/redux.svg",
-  },
-  {
-    name: "Styled Component",
-    dropShadow: "rgb(114, 72, 182)",
-    imgUrl: "/icons/styledComponent.svg",
-  },
-  {
     name: "Git",
     dropShadow: "rgb(250, 250, 250)",
-    imgUrl: "/icons/git.svg",
+    imgUrl: "/icons/github.svg",
   },
   {
-    name: "Webpack",
-    dropShadow: "rgb(139, 206, 241)",
-    imgUrl: "/icons/webpack.svg",
+    name: "Vite",
+    dropShadow: "rgb(39, 99, 233)",
+    imgUrl: "/icons/vite.svg",
   },
   {
     name: "Cypress",
@@ -82,9 +84,10 @@ const skills = [
     imgUrl: "/icons/cypress.svg",
   },
   {
-    name: "Babel",
-    dropShadow: "rgb(249, 220, 60)",
-    imgUrl: "/icons/babel.svg",
+    name: "DynamoDB",
+    dropShadow: "rgb(239, 216, 25)",
+    className: "top-2.5 left-3.5",
+    imgUrl: "/icons/dynamodb.svg",
   },
   {
     name: "Openlayers",
@@ -92,16 +95,10 @@ const skills = [
     imgUrl: "/icons/openlayers.svg",
   },
   {
-    name: "Jest",
-    dropShadow: "#c63d14",
-    imgUrl: "/icons/jest.svg",
+    name: "Postgres",
+    dropShadow: "rgb(97, 218, 251)",
+    imgUrl: "/icons/postgresql.svg",
   },
-  {
-    name: "Recoil",
-    dropShadow: "rgb(39, 99, 233)",
-    imgUrl: "/icons/recoil.svg",
-  },
-
 ];
 
 export const Skills = () => {
@@ -109,10 +106,7 @@ export const Skills = () => {
     <div className="flex flex-wrap gap-8 items-center justify-center md:justify-start">
       {skills.map((skill) => {
         return (
-          <div
-            key={skill.name}
-            className="flex w-fit flex-col gap-2 h-34"
-          >
+          <div key={skill.name} className="flex w-fit flex-col gap-2 h-34">
             <div
               className="rounded-full bg-gray-100 h-20 w-20"
               style={{

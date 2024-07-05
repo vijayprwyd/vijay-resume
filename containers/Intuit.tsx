@@ -28,8 +28,8 @@ export const Intuit = () => (
       <Experience.Description>
         Analyse performance issues and improve it with techniques like code
         splitting, lazy loading, caching, parallelization of network calls,
-        preloading and pre-fetching, bringing down TP99 page loads from 8 sec to
-        less than 2 sec.
+        preloading and pre-fetching, bringing down TP99 page loads from 5 sec to
+        less than a sec.
       </Experience.Description>
     </Experience.Summary>
   </Experience>

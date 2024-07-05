@@ -12,6 +12,7 @@ import { Skills } from "../components/Skills";
 import { Freelance } from "../containers/Freelance";
 import { Intuit } from "../containers/Intuit";
 import { Tekion } from "../containers/Tekion";
+import { XYSense } from "../containers/XYSense";
 
 const Home: NextPage = () => {
   return (
@@ -37,8 +38,8 @@ const Home: NextPage = () => {
 
           <Heading2>Work Experience</Heading2>
 
+          <XYSense />
           <Freelance />
-
           <div className="lg:grid grid-cols-2 gap-4">
             <Tekion />
             <Intuit />
@@ -49,6 +50,12 @@ const Home: NextPage = () => {
               <Heading2>Certifications</Heading2>
               <Section>
                 <Certifications>
+                  <Certifications.Certification>
+                    <ExternalLink href="https://www.coursera.org/account/accomplishments/verify/HS5ACBM2D9EC">
+                      CouseEra
+                    </ExternalLink>
+                    - AWS Cloud Technical Essentials
+                  </Certifications.Certification>
                   <Certifications.Certification>
                     <ExternalLink href="https://www.hackerrank.com/vpr_wyd">
                       HackerRank
@@ -67,7 +74,6 @@ const Home: NextPage = () => {
 
             <div className="flex flex-col gap-4 mb-10 md:mb-0">
               <Heading2>Blogs</Heading2>
-
               <Section className="flex-grow">
                 <Blogs>
                   <ul className="list-disc ml-6 text-2xl">
