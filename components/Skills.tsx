@@ -8,6 +8,22 @@ const skills = [
     className: "top-3 left-2.5",
   },
   {
+    name: "C# / .NET",
+    dropShadow: "rgb(39, 99, 233)",
+    imgUrl: "/icons/csnet.svg",
+  },
+  {
+    name: "AWS",
+    dropShadow: "rgb(239, 216, 25)",
+    imgUrl: "/icons/aws2.svg",
+    className: "top-3 left-2.5",
+  },
+  {
+    name: "NodeJs",
+    dropShadow: "rgb(114, 171, 99)",
+    imgUrl: "/icons/nodeJs.svg",
+  },
+  {
     name: "Next.js",
     dropShadow: "rgb(250, 250, 250)",
     imgUrl: "/icons/next.svg",
@@ -19,11 +35,6 @@ const skills = [
     width: 50,
     height: 50,
     className: "top-3.5 left-4",
-  },
-  {
-    name: "NodeJs",
-    dropShadow: "rgb(114, 171, 99)",
-    imgUrl: "/icons/nodeJs.svg",
   },
   {
     name: "HTML",
@@ -39,10 +50,9 @@ const skills = [
     className: "relative top-4 left-4",
   },
   {
-    name: "AWS",
-    dropShadow: "rgb(239, 216, 25)",
-    imgUrl: "/icons/aws2.svg",
-    className: "top-3 left-2.5",
+    name: "PostgreSQL",
+    dropShadow: "rgb(97, 218, 251)",
+    imgUrl: "/icons/postgresql.svg",
   },
   {
     name: "Graphql",
@@ -93,11 +103,6 @@ const skills = [
     name: "Openlayers",
     dropShadow: "rgb(48, 116, 191)",
     imgUrl: "/icons/openlayers.svg",
-  },
-  {
-    name: "Postgres",
-    dropShadow: "rgb(97, 218, 251)",
-    imgUrl: "/icons/postgresql.svg",
   },
 ];
 
