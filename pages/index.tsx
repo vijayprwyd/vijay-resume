@@ -29,15 +29,11 @@ const Home: NextPage = () => {
             <Profile />
             <About />
           </div>
-
           <Heading2>Skills</Heading2>
-
           <div className="bg-dusk p-6 rounded-lg">
             <Skills />
           </div>
-
           <Heading2>Work Experience</Heading2>
-
           <XYSense />
           <Freelance />
           <div className="lg:grid grid-cols-2 gap-4">
@@ -60,7 +56,7 @@ const Home: NextPage = () => {
                     <ExternalLink href="https://www.hackerrank.com/vpr_wyd">
                       HackerRank
                     </ExternalLink>
-                    - Javascript, CSS, Problem solving certified
+                    - Javascript, CSS, SQL, C#, Problem solving certified
                   </Certifications.Certification>
                   <Certifications.Certification>
                     <ExternalLink href="https://www.linkedin.com/in/vijay-p-r-133147131/">

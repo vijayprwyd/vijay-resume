@@ -12,6 +12,7 @@ export const Tekion = () => (
         Tekion
       </Experience.Company>
     </Experience.Title>
+    <Experience.Duration>March 2021 - Oct 2021</Experience.Duration>
     <Experience.Logo src="/companies/tekion.png" />
     <Experience.Summary className="mt-4">
       <Experience.Description>

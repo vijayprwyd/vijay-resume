@@ -74,11 +74,6 @@ const skills = [
     height: 50,
   },
   {
-    name: "Tailwind CSS",
-    dropShadow: "rgb(255, 70, 133)",
-    imgUrl: "/icons/tailwind.svg",
-  },
-  {
     name: "Git",
     dropShadow: "rgb(250, 250, 250)",
     imgUrl: "/icons/github.svg",
@@ -94,10 +89,9 @@ const skills = [
     imgUrl: "/icons/cypress.svg",
   },
   {
-    name: "DynamoDB",
-    dropShadow: "rgb(239, 216, 25)",
-    className: "top-2.5 left-3.5",
-    imgUrl: "/icons/dynamodb.svg",
+    name: "Tailwind CSS",
+    dropShadow: "rgb(255, 70, 133)",
+    imgUrl: "/icons/tailwind.svg",
   },
   {
     name: "Openlayers",

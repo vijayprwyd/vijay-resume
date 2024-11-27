@@ -5,7 +5,6 @@ export const XYSense = () => (
   <Experience>
     <Experience.Title>
       {"Software Engineer at "}
-
       <Experience.Company
         className="text-intuit-blue text-tekion-green"
         companyUrl="https://tekion.com/"
@@ -13,6 +12,7 @@ export const XYSense = () => (
         XYSense
       </Experience.Company>
     </Experience.Title>
+    <Experience.Duration>Aug 2023 - Present</Experience.Duration>
     <Experience.Logo src="/companies/xysense.webp" />
     <Experience.Summary className="mt-4">
       <Experience.Description>
