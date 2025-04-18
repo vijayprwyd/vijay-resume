@@ -22,14 +22,19 @@ export const XYSense = () => (
         measure office space utilization.
       </Experience.Description>
       <Experience.Description>
-        Implemented an image annotation library in React and OpenLayers, to
-        train AI algorithms for analyzing space utilization by annotating
-        thousands of images with bulk edits and transformations.
+        Working on various aspects of the front-end and back-end of the web
+        application, including features such as office space utilization and
+        management, sensor management, live views, historical views, occupancy,
+        air quality, real time dashboards, replays, sightings and visualizations
       </Experience.Description>
       <Experience.Description>
-        Working for Implemeted conflict resolution of space assignments, floor
-        statuses, org settings updation workflow and Deck GL canvas
-        visualizations
+        Implemeted conflict resolution of space assignments, floor statuses, org
+        settings updation workflow and Deck GL canvas visualizations
+      </Experience.Description>
+      <Experience.Description>
+        Implemented an image annotation library in React and OpenLayers, to
+        train AI algorithms for analyzing space utilization. Seamlessly handled
+        annotating images with bulk edits and transformations.{" "}
       </Experience.Description>
     </Experience.Summary>
   </Experience>
