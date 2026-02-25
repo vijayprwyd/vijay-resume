@@ -33,7 +33,7 @@ export const Profile = () => (
           </div>
 
           <div className="flex gap-2">
-            <a
+            {/*<a
               href="https://www.linkedin.com/in/vijay-p-r-133147131/"
               target="_blank"
               rel="noreferrer"
@@ -44,7 +44,7 @@ export const Profile = () => (
                 width={32}
                 height={32}
               />
-            </a>
+            </a>*/}
             <a
               href="https://stackoverflow.com/users/3950280/vijay-p-r"
               target="_blank"
