@@ -41,13 +41,10 @@ const Description = ({ children }: RenderProp) => <li> {children} </li>;
 
 const Logo = ({ src }: LogoProps) => (
   <div className="absolute right-4 -top-8 hidden md:block">
-    <Image
+    <img
       src={src}
-      layout="fixed"
-      width={64}
-      height={64}
       alt="Company"
-      className="rounded"
+      className="rounded w-16 h-16"
     />
   </div>
 );

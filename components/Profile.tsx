@@ -38,7 +38,7 @@ export const Profile = () => (
               target="_blank"
               rel="noreferrer"
             >
-              <Image
+              <img
                 alt="Linkedin"
                 src="/social/linkedin.svg"
                 width={32}
