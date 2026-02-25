@@ -107,7 +107,7 @@ export const Skills = () => {
         return (
           <div key={skill.name} className="flex w-fit flex-col gap-2 h-34">
             <div
-              className="rounded-full bg-gray-100 h-20 w-20"
+              className="rounded-full bg-gray-100 h-20 w-20 flex justify-center items-center"
               style={{
                 filter: skill.dropShadow
                   ? `drop-shadow(${skill.dropShadow} 0px 0px 0.75rem) !important`
@@ -115,15 +115,12 @@ export const Skills = () => {
               }}
             >
               <div
-                className={`${skill.className || "top-2.5 left-2.5"} relative`}
+                className={`relative`}
               >
-                <Image
+                <img
                   src={skill.imgUrl}
-                  width={skill.width || 60}
-                  height={skill.height || 60}
-                  layout="fixed"
-                  alt="react"
-                  className={`p-5 text-night`}
+                  className="w-[52px] h-[52px]"
+                  alt={skill.name}
                 />
               </div>
             </div>

@@ -50,11 +50,10 @@ export const Profile = () => (
               target="_blank"
               rel="noreferrer"
             >
-              <Image
+              <img
                 alt="Stack Overflow"
-                src="/social/stackOverflow.svg"
-                width={32}
-                height={32}
+                src="/companies/stack-overflow.png"
+                className="w-8 h-8"
               />
             </a>
             <a
@@ -62,11 +61,10 @@ export const Profile = () => (
               target="_blank"
               rel="noreferrer"
             >
-              <Image
+              <img
                 alt="Github"
                 src="/social/git.svg"
-                width={32}
-                height={32}
+                className="w-8 h-8"
               />
             </a>
           </div>
