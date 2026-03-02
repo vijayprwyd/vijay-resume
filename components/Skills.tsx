@@ -18,6 +18,11 @@ const skills = [
     imgUrl: "/icons/java.svg",
   },
   {
+    name: "Spring Boot",
+    dropShadow: "rgb(255, 70, 133)",
+    imgUrl: "/icons/spring-boot.svg",
+  },
+  {
     name: "AWS",
     dropShadow: "rgb(239, 216, 25)",
     imgUrl: "/icons/aws2.svg",
@@ -119,9 +124,7 @@ export const Skills = () => {
                   : "none",
               }}
             >
-              <div
-                className={`relative`}
-              >
+              <div className={`relative`}>
                 <img
                   src={skill.imgUrl}
                   className="w-[52px] h-[52px]"
