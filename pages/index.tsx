@@ -92,27 +92,27 @@ const Home: NextPage = () => {
             </div>
           </div>
 
+          <Heading2>Key Projects</Heading2>
+          <Section>
+            <ul className="list-disc ml-6 text-2xl">
+              <li>
+                Please find out our contributions to various projects
+                <ExternalLink href="https://drive.google.com/file/d/1JZWeI2ZVQ2PogZS5hVWK08Y3avV-Suek/view?usp=sharing" className="ml-2">
+                  here
+                </ExternalLink>
+              </li>
+            </ul>
+          </Section>
           <Heading2>Education</Heading2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1">
             <Education>
               <Education.Institution>
-                College Of Engineering, Tiruvananthapuram
+                Graduated from India
               </Education.Institution>
               <Education.Subject>
                 Btech, Computer Science And Engineering
               </Education.Subject>
               <Education.Score>8.55 CGPA</Education.Score>
-            </Education>
-
-            <Education>
-              <Education.Institution>
-                Hill Blooms School, Mananthavady
-              </Education.Institution>
-              <Education.Subject>
-                Physics, Mathematics and Computer Science
-              </Education.Subject>
-              <Education.Score>95.4%</Education.Score>
             </Education>
           </div>
         </div>

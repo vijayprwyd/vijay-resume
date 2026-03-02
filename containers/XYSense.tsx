@@ -7,7 +7,7 @@ export const XYSense = () => (
       {"Software Engineer at "}
       <Experience.Company
         className="text-intuit-blue text-tekion-green"
-        companyUrl="https://tekion.com/"
+        companyUrl="https://www.xysense.com/"
       >
         XYSense
       </Experience.Company>

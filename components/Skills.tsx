@@ -13,6 +13,11 @@ const skills = [
     imgUrl: "/icons/csnet.svg",
   },
   {
+    name: "Java",
+    dropShadow: "rgb(234, 99, 40)",
+    imgUrl: "/icons/java.svg",
+  },
+  {
     name: "AWS",
     dropShadow: "rgb(239, 216, 25)",
     imgUrl: "/icons/aws2.svg",
